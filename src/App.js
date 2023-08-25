@@ -7,7 +7,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 function App() {
   return (
     <div className="App">
-       <InputGroup>
+      <InputGroup>
         <Form.Control
           placeholder="Add To-Do"
           aria-label="Todo with Submit Edit Delete"
@@ -15,8 +15,8 @@ function App() {
         <Button variant="success">Submit</Button>
         <Button variant="warning">Edit</Button>
         <Button variant="danger">Delete</Button>
-
       </InputGroup>
+      <p>todo list 1</p>
     
     </div>
   );
